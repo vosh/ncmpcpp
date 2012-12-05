@@ -31,7 +31,7 @@ visualizer_look = "●┇"
 
 ##### song format #####
 
-song_list_format = "{%a - %t}|{$8%f$9} {$3(%l)$9}"
+song_list_format = "{$4%a$9 $8»»$9 $7%t}|{$8%f$9}"
 song_library_format = "{%n - }{%t}|{%f}"
 media_library_album_format = "{(%y) }%b"
 tag_editor_album_format = "{(%y) }%b"
@@ -46,7 +46,7 @@ alternative_header_first_line_format = "{$5╶─┤ {%t} ├─╴}"
 
 ##### various settings #####
 
-playlist_display_mode = "columns"
+playlist_display_mode = "classic"
 browser_display_mode = "columns"
 search_engine_display_mode = "classic"
 incremental_seeking = "yes"
@@ -59,18 +59,16 @@ default_find_mode = "wrapped"
 default_space_mode = "add"
 default_tag_editor_left_col = "albums"
 default_tag_editor_pattern = "%n - %t"
-header_visibility = "yes"
-header_text_scrolling = "yes"
 cyclic_scrolling = "yes"
-statusbar_visibility = "yes"
+statusbar_visibility = "no"
 fancy_scrolling = "yes"
 follow_now_playing_lyrics = "no"
 ncmpc_like_songs_adding = "yes"
 display_screens_numbers_on_start = "yes"
 clock_display_seconds = "yes"
-enable_window_title = "yes"
-user_interface = "alternative"
-progressbar_look = "─━─"
+enable_window_title = "no"
+user_interface = "classic"
+progressbar_look = "─━╴"
 
 # Colors
 
@@ -82,7 +80,7 @@ volume_color = "cyan"
 progressbar_color = "cyan"
 statusbar_color = "red"
 color1 = "cyan"
-color2 = "green"
+color2 = "blue"
 active_column_color = "cyan"
 active_window_border = "white"
 visualizer_color = "blue"
@@ -91,7 +89,7 @@ visualizer_color = "blue"
 
 header_visibility = "no"
 statusbar_visibility = "no"
-header_text_scrolling = "yes"
+header_text_scrolling = "no"
 
 fancy_scrolling = "no"
 cyclic_scrolling = "yes"
