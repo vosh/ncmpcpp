@@ -1,0 +1,3 @@
+ncmpcpp
+=======
+goes into ~/.ncmpcpp/
